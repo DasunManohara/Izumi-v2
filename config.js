@@ -13,7 +13,7 @@ module.exports = {
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
   ALIVE_IMAGE:process.env.ALIVE_IMAGE || "https://i.imgur.com/PyQ9iOU.jpeg",
   ALIVE_AUDIO:process.env.ALIVE_AUDIO || "https://i.imgur.com/OqY5EmY.mp4",
-  SESSION_ID:process.env.SESSION_ID || " ",
+  SESSION_ID:process.env.SESSION_ID || "IZUMI-V2~JFbvLG02K2EyMSG5A3Ewx",
   LANG: process.env.LANG || "EN",
   HANDLERS: (process.env.HANDLERS || '^[.,!]').trim(),
   BRANCH: "main",
@@ -23,7 +23,7 @@ module.exports = {
   AUDIO_DATA: process.env.AUDIO_DATA || "𝗜𝗭𝗨𝗠𝗜 𝗫𝗗;𝐄𝐘𝐏𝐙;https://telegra.ph/file/48a64589b6f18da01e9bf.jpg",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
   CAPTION: process.env.CAPTION || "𝗜𝗭𝗨𝗠𝗜 𝗫𝗗",
-  WORK_TYPE: process.env.WORK_TYPE || "private",
+  WORK_TYPE: process.env.WORK_TYPE || "public",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
